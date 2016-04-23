@@ -1,0 +1,43 @@
+body {
+	margin-bottom: 3vh;
+}
+
+.img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	opacity: 0.9;
+	position: absolute;
+	overflow: hidden;
+}
+
+.info {
+	font-family: 'Exo', sans-serif;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: 1.2em;
+}
+
+.transparent {
+	background: rgba(0, 255, 255, .5);
+	margin: 20vh auto;
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	color: white;
+	width: 50vw;
+	height: 25vw;
+	position: relative;
+	font-size: 1.5vw;
+}
+
+div.transparent:hover {
+	border: solid 2px #00FFFF;
+}
+
+#bg-container {
+	background: url('../images/iron_man_jarvis.jpg') no-repeat center center;
+	background-color: black;
+	background-size: cover;
+	height: 100vh;
+}
